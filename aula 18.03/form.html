@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de contato</title>
+</head>
+<body>
+  <h1>Entre em contato com DevWeb</h1>
+  <form action="">
+    <label for="campo_nome">Nome:</label>
+    <input type="text" name="campo_nome" placeholder="Digite seu nome" required>
+      <br><br>
+    <label for="campo_email">Email:</label>
+    <input type="email" name="Email" placeholder="Digite seu email" required>
+      <br><br>
+    <label for="Data_nascimento">Data de nascimento:</label>
+    <input type="date" name="" id="">
+    <br><br>
+    <label for="time_favorito">O time que você torce:</label>
+    <input type="text" name="time_favorito" disabled placeholder="Digite o nome do time">
+      <br><br>
+    <label for="cor_favorita">Cor Favorita:</label>
+    <input type="color" name="cor_favorita" placeholder="Digite sua cor favorita">
+      <br><br>
+    <label for="sua_senha">Digite sua senha:</label>
+    <input type="password"size="10" maxlength="8" name="sua_senha">
+    <label for="sua_senha">Confirme sua senha:</label>
+    <input type="password"size="10" maxlength="8" name="sua_senha">
+      <br>
+    <p>Deseja receber as novidades ?</p>
+      <input type="radio" id="sim" name="propaganda" value="sim">
+      <label for="sim">sim</label>
+
+      <input type="radio" id="não" name="propaganda" value="não">
+      <label for="não">não</label>
+      <br><br>
+    <label for="Termos_confirmação">Concorda com os termos ?</label>
+    <input type="checkbox" name="Termos_confirmação" id="">
+      <br><br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+      <br><br>
+      <label for="nome">Digite sua Rua:</label>
+      <input type="text" nome="rua">
+      <br><br>
+      <label for="numero">Digite o número:</label>
+      <input type="number" nome="numero">
+      <br><br>
+      <label for="bairro">Digite seu bairro:</label>
+      <input type="text" nome="bairro">
+      <br><br>
+      <label for="cidade">Selecione sua cidade:</label>
+      <select name="cidade">
+        <option disabled selected>Selecione sua cidade</option>
+        <option value="PF">Passo Fundo</option>
+        <option value="ER">Erechim</option>
+        <option value="POA">Porto Alegre</option>
+      </select>
+      <br><br>
+    <label for="estado">Selecione seu estado:</label>
+    <select name="estado">
+      <option disabled selected>Selecione um estado</option>
+      <option value="rs">Rio Grande do Sul</option>
+      <option value="rj">Rio de Janeiro</option>
+      <option value="sp">São Paulo</option>
+      <option value="sc">Santa Catarina</option>
+    </select>
+      <br><br>
+    <label for="País">Selecione seu País:</label>
+    <select name="País">
+      <option disabled selected>Selecione um País</option>
+      <option value="BR">Brasil</option>
+      <option value="USA">Estados Unidos</option>
+      <option value="ARG">Argentina</option>
+    </select>
+      <br><br>
+    <label for="texto">Mensagem usuário</label>
+    <textarea name="texto" cols="20" rows="10"></textarea>
+
+  </form>
+</body>
+</html>
